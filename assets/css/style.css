@@ -813,7 +813,7 @@ input {
 }
 
 .color-light {
-  opacity: 0;
+  opacity: 1;
 }
 
 .color-dark {
@@ -997,3 +997,35 @@ input {
     margin-top: 1.25rem;
   }
 }
+
+@media screen and (max-width: 350px) {
+  :root {
+    --fs-h1: 2rem;
+    
+  }
+  .home__details {
+    font-size: 0.875rem;
+  }
+  .home__name {
+    font-size: 1.75rem;
+  }
+  .home__img {
+    width: 120px;
+    height: 100%;
+    transform: translateY(0);
+    margin-left: 30%;
+  }
+  .home__socials {
+    margin-left: 30%;
+  }
+  .home__social-link {
+    font-size: 1.3rem;
+  }
+  .section__title {
+    font-size: 1.25rem;
+  }
+  .curriculumvitae a {
+    margin-top: 1.25rem;
+  }
+}
+
