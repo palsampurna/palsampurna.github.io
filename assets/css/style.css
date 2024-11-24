@@ -291,7 +291,7 @@ input {
 }
 
 .home__list dd {
-  padding-left: 8.2em;
+  padding-left: 6.25em;
 }
 
 .home__list dd:not(:last-child) {
@@ -497,7 +497,7 @@ input {
 }
 
 .curriculumvitae__list dd {
-  padding-left: 6.25em;
+  padding-left: 8.33em;
 }
 
 .curriculumvitae__list dd:not(:last-child) {
