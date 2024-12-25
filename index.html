@@ -7,9 +7,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <!--=============== Remixicons ===============-->
   <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet" />
-  <script src="https://kit.fontawesome.com/0e4a14a188.js"crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/0e4a14a188.js" crossorigin="anonymous"></script>
   <!--=============== Swiper Css ===============-->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+  <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" /> -->
+  <!-- Swiper CSS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+
+<!-- Swiper JS -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
 
   <!--=============== Css ===============-->
   <link rel="stylesheet" href="assets/css/style.css" />
@@ -87,8 +93,10 @@
           <p class="home__details text-lg">
             I am currently a PhD student in the Theoretical Statistics and Mathematics Unit at the <a class="hyperref"
               href="https://www.isical.ac.in/">Indian Statistical Institute, Kolkata</a> under the guidance of Prof.
-            Ritabrata Munshi. I completed my Master of Mathematics from the <a class="hyperref" href="www.isibang.ac.in">Indian Statistical Institute, Bangalore</a> .
-            Before that, I completed my Bachelor of Engineering in Electronics and Telecommunication Engineering from <a class="hyperref" href="www.iiests.ac.in">IIEST, Shibpur</a>. <br> <br> I work on
+            Ritabrata Munshi. I completed my Master of Mathematics from the <a class="hyperref"
+              href="www.isibang.ac.in">Indian Statistical Institute, Bangalore</a> .
+            Before that, I completed my Bachelor of Engineering in Electronics and Telecommunication Engineering from <a
+              class="hyperref" href="www.iiests.ac.in">IIEST, Shibpur</a>. <br> <br> I work on
             analytic number theory, primarily using the delta method to study various properties of \(L\)-functions.
           </p>
           <div class="home__socials">
@@ -96,7 +104,7 @@
               <i class="ri-github-fill"></i>
             </a>
             <a href="https://www.linkedin.com/" target="_blank" class="home__social-link">
-              <i class="fa-brands fa-google-scholar"></i> 
+              <i class="fa-brands fa-google-scholar"></i>
             </a>
             <a href="https://www.facebook.com/" target="_blank" class="home__social-link">
               <i class="ri-mail-fill"></i>
@@ -118,8 +126,8 @@
       </p>
 
     </section>
-     <!--=============== curriculumvitae ===============-->
-     <section class="curriculumvitae section container" id="curriculumvitae">
+    <!--=============== curriculumvitae ===============-->
+    <section class="curriculumvitae section container" id="curriculumvitae">
       <h2 class="section__title">Education
         <a href="assets/img/John-Cv.pdf" class="button button--flex text-sm"><i class="ri-download-line"></i> DOWNLOAD
           CV</a>
@@ -342,8 +350,8 @@
       </section> -->
 
 
-     <!--=============== Talks ===============-->
-     <section class="talks section container" id="talks">
+    <!--=============== Talks ===============-->
+    <section class="talks section container" id="talks">
       <h2 class="section__title">Talks</h2>
       <div class="year-section">
         <h3>2024</h3>
@@ -367,10 +375,10 @@
         </div>
       </div> -->
     </section>
-      
-   
 
-   
+
+
+
 
     <!--=============== Testimonials ===============-->
     <!-- <section class="testimonials section">
@@ -419,14 +427,38 @@
     <!-- =============== News =============== -->
     <section class="photography section container" id="photography">
       <h2 class="section__title">Photography</h2>
-
-      <div class="news__container grid">
-        <div class="news__card">
-          <iframe src="https://www.behance.net/embed/project/207417019?ilo0=1" height="316" width="404" allowfullscreen
-            lazyload frameborder="0" allow="clipboard-write" refererPolicy="strict-origin-when-cross-origin"></iframe>
+    
+      <!-- Swiper Container -->
+      <div class="swiper-container">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <iframe src="https://www.behance.net/embed/project/207417019?ilo0=1" height="316" width="404" allowfullscreen
+              lazyload frameborder="0" allow="clipboard-write" refererPolicy="strict-origin-when-cross-origin"></iframe>
+          </div>
+          <div class="swiper-slide">
+            <iframe src="https://www.behance.net/embed/project/213324551?ilo0=1" height="316" width="404" allowfullscreen
+              lazyload frameborder="0" allow="clipboard-write" refererPolicy="strict-origin-when-cross-origin"></iframe>
+          </div>
+          <div class="swiper-slide">
+            <iframe src="https://www.behance.net/embed/project/213324173?ilo0=1" height="316" width="404" allowfullscreen
+              lazyload frameborder="0" allow="clipboard-write" refererPolicy="strict-origin-when-cross-origin"></iframe>
+          </div>
+          <!-- <div class="swiper-slide">
+            <iframe src="https://www.behance.net/embed/project/213324173?ilo0=1" height="316" width="404" allowfullscreen
+              lazyload frameborder="0" allow="clipboard-write" refererPolicy="strict-origin-when-cross-origin"></iframe>
+          </div>
+          <div class="swiper-slide">
+            <iframe src="https://www.behance.net/embed/project/213324173?ilo0=1" height="316" width="404" allowfullscreen
+              lazyload frameborder="0" allow="clipboard-write" refererPolicy="strict-origin-when-cross-origin"></iframe>
+          </div> -->
         </div>
+        <!-- Add Pagination, Navigation, or other controls if needed -->
+        <!-- <div class="swiper-pagination"></div> -->
+        <div class="swiper-button-next"><i class="ri-arrow-right-line"></i></div>
+        <div class="swiper-button-prev"><i class="ri-arrow-left-line"></i></div>
       </div>
     </section>
+    
 
     <!--=============== Contact ===============-->
     <section class="contact section" id="contact">
@@ -472,8 +504,8 @@
               </div>
 
               <div class="contact__input-div">
-                <textarea id="message" name="message" placeholder="Type the message here" class="contact__input textarea" cols="30"
-                  rows="10"></textarea>
+                <textarea id="message" name="message" placeholder="Type the message here"
+                  class="contact__input textarea" cols="30" rows="10"></textarea>
               </div>
               <p class="contact__message text-sm" id="contact-message">
               </p>
@@ -509,6 +541,45 @@
 
   <!--=============== Js ===============-->
   <script src="assets/js/main.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      const swiper = new Swiper('.swiper-container', {
+        slidesPerView: 1,  // Number of slides visible at once
+        spaceBetween: 10,   // Space between slides
+        loop: true,         // Enable looping of slides
+        autoplay: {
+          delay: 3000,      // Autoplay interval (optional)
+          disableOnInteraction: false
+        },
+        pagination: {
+          el: '.swiper-pagination', 
+          clickable: true,    // Enable pagination dots
+        },
+        navigation: {
+          nextEl: '.swiper-button-next',  // Next button
+          prevEl: '.swiper-button-prev',  // Prev button
+        },
+        breakpoints: {
+          // When screen width is >= 640px, show 2 slides
+          640: {
+            slidesPerView: 2,
+            spaceBetween: 20
+          },
+          // When screen width is >= 768px, show 3 slides
+          768: {
+            slidesPerView: 3,
+            spaceBetween: 30
+          },
+          // When screen width is >= 1024px, show 4 slides
+          1024: {
+            slidesPerView: 4,
+            spaceBetween: 30
+          },
+        }
+      });
+    });
+  </script>
+  
 
   <!--=============== Common ===============-->
   <script src="assets/js/common.js"></script>
