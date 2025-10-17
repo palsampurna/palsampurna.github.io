@@ -30,9 +30,9 @@
   --fs-xs: 0.75rem;
 
   /*========== Font Weight ==========*/
-  --medium: 500;
-  --semibold: 600;
-  --bold: 700;
+  --medium: 100;
+  --semibold: 200;
+  --bold: 400;
 }
 
 /*=============== Base ===============*/
@@ -286,7 +286,7 @@ input {
 
 .home__list dt {
   float: left;
-  font-weight: var(--bold);
+  font-weight: var(--semibold);
   opacity: 0.4;
 }
 
