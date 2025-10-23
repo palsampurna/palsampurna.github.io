@@ -712,7 +712,7 @@ input {
 
 /*=============== Contact ===============*/
 .contact {
-  background: url(../img/bg.jpg);
+  background: url(../img/bg.jpeg);
   background-size: cover;
   background-position: 50%;
   position: relative;
@@ -757,12 +757,15 @@ input {
 .contact__list dt {
   float: left;
   font-weight: var(--bold);
+  font-size: 1.1rem;
   text-transform: uppercase;
 }
 
 .contact__list dd {
   padding-left: 6.25em;
   margin-bottom: 0.94em;
+  font-weight: var(--bold);
+  font-size: 1.1rem;
   /* text-align: justify; */
 
 }
@@ -776,11 +779,13 @@ input {
 }
 
 .contact__form {
+  font-size: 1.1rem;
   position: relative;
   
 }
 
 .contact__form-title {
+  font-size: 1.1rem;
   margin-bottom: 1.25em;
 }
 
@@ -789,6 +794,7 @@ input {
 }
 
 .contact__input {
+  font-size: 1.1rem;
   width: 100%;
   border: 1px solid var(--border-color);
   border-radius: 3px;
